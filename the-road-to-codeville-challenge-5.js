@@ -1,10 +1,9 @@
 const stations = [
-  ['Big', 10, 'restaurant'],
-  ['Bright', 50, 'school'],
-  ['Moose', 45, 'community centre'],
-  ['Codeville', 15, 'school'],
-  ['Big Al', 50, 'restaurant']
-]
+  ['Big Bear Donair', 10, 'restaurant'],
+  ['Bright Lights Elementary', 50, 'school'],
+  ['Moose Mountain Community Centre', 45, 'community centre']
+];
+
 
 function chooseStations (stations) {
   const goodStations = []
