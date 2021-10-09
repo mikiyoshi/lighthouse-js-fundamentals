@@ -1,4 +1,5 @@
 for (var i = 100; i <= 200; i++ ) {
+  // learge amount number check first
   if (i % 3 === 0 && i % 4 === 0) {
     console.log("LoopyLighthouse");
   } else if (i % 4 === 0) {
