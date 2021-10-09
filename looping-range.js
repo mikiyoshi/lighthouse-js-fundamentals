@@ -1,6 +1,6 @@
 const range = function(start, end, step) {
   const newArray = [];
-  if ( start !== false && end !== false && step > 0 ) {
+  if ( start !== false && end > start && step > 0 ) {
     for(let i = start; i <= end; i = i + step) {
       newArray.push(i);
     }
